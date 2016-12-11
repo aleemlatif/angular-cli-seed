@@ -13,7 +13,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Production server
 
-Run `npm start` to serve the app from ```dist``` folder
+Run `npm start` to start an express server on ```dist``` folder
 
 ## Code scaffolding
 
