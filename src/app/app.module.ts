@@ -12,6 +12,7 @@ import { MaterializeModule } from 'angular2-materialize';
 import { NavigationComponent } from './navigation/navigation.component';
 import { FooterComponent } from './footer/footer.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
