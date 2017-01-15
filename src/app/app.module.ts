@@ -9,10 +9,14 @@ import {AppRoutes} from "./app.routing";
 
 import {HomeModule} from "./home/home.module";
 import { MaterializeModule } from 'angular2-materialize';
+import { NavigationComponent } from './navigation/navigation.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavigationComponent,
+    FooterComponent
   ],
   imports: [
     MaterializeModule,
