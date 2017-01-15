@@ -22,7 +22,7 @@
               <label for="icon_prefix2" class="white-text">Message</label>
             </div>
             <div class="input-field col s12 center">
-              <button class="btn waves-effect waves-light red darken-1" type="submit">
+              <button class="btn waves-effect waves-light red darken-1" (click)="openModal()" type="submit">
                 Submit
               </button>
             </div>
@@ -64,6 +64,19 @@
   <div class="footer-copyright default_color">
     <div class="container">
       @avatsaev 2017
+    </div>
+  </div>
+
+  <div id="modal1" class="modal" materialize="modal" [materializeParams]="[{dismissible: false}]" [materializeActions]="modalActions">
+    <div class="modal-content">
+      <h4>Sent</h4>
+      <p>Your message was sent!</p>
+    </div>
+    <div class="modal-footer">
+      <div class="row">
+        <button class="btn modal-action modal-close waves-effect waves-green" (click)="closeModal()">OK</button>
+      </div>
+
     </div>
   </div>
 </footer>
