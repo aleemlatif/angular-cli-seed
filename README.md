@@ -1,6 +1,9 @@
 # Angular CLI Seed with materialize-css
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.22-1.
+This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.25.5.
+Uses MaterializeCSS and FontAwesome
+
+Demo: http://aslan.vatsaev.com
 
 ![](http://i.imgur.com/KkKsPP2.png)
 
