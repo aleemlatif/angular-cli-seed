@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {toast} from "angular2-materialize";
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',

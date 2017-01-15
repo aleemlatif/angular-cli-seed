@@ -160,13 +160,9 @@ alphanum-sort@^1.0.1, alphanum-sort@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
 
-amdefine@1.0.0:
+amdefine@1.0.0, amdefine@>=0.0.4:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.0.tgz#fd17474700cb5cc9c2b709f0be9d23ce3c198c33"
-
-amdefine@>=0.0.4:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
 angular-cli@1.0.0-beta.25.5:
   version "1.0.0-beta.25.5"
@@ -251,8 +247,8 @@ angular-cli@1.0.0-beta.25.5:
     zone.js "^0.7.2"
 
 angular2-materialize@^6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/angular2-materialize/-/angular2-materialize-6.3.0.tgz#162a61bd16008f04d8ea4ad02c960d1f8a38c61f"
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/angular2-materialize/-/angular2-materialize-6.4.0.tgz#f85c6ce18a76aedf2ab910ec5251bcf033404bd9"
   dependencies:
     "@angular/forms" "^2.0.1"
 

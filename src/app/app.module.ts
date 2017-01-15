@@ -5,26 +5,28 @@ import { HttpModule } from '@angular/http';
 import {RouterModule} from "@angular/router";
 
 import { AppComponent } from './app.component';
-import {AppRoutes} from "./app.routing";
-
-import {HomeModule} from "./home/home.module";
+import { AppRoutes } from "./app.routing";
 import { MaterializeModule } from 'angular2-materialize';
 import { NavigationComponent } from './navigation/navigation.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from "./home/home.component";
+import { BannerComponent } from "./banner/banner.component";
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
-    FooterComponent
+    HomeComponent,
+    FooterComponent,
+    BannerComponent
   ],
   imports: [
     MaterializeModule,
     BrowserModule,
     FormsModule,
     HttpModule,
-    HomeModule,
     RouterModule.forRoot(AppRoutes)
   ],
   providers: [],
