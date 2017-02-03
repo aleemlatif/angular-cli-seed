@@ -10,7 +10,7 @@ Prepackages:
 
 Demo: http://aslan.vatsaev.com
 
-![](http://i.imgur.com/1tlJA5Z.jpeg)
+![](http://i.imgur.com/1ajRGiQ.jpeg)
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
