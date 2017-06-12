@@ -1,4 +1,6 @@
-# Angular CLI Seed with materialize-css
+# Angular CLI Seed with materialize-css (OUTDATED)
+
+WARNING: All dependencies in this project are outdated and no longer compatible with the newest version of Angular and Angular CLI
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.25.5.
 
